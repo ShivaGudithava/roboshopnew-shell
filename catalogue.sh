@@ -14,6 +14,6 @@ npm install
 yum install mongodb-org-shell -y
 mongo --host mongodb.gudishivadevops.online </app/schema/catalogue.js
 
-systemxtl daemon-reload
+systemctl daemon-reload
 systemctl enable catalogue
 systemctl restart catalogue
