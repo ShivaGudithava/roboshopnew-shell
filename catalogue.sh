@@ -17,3 +17,4 @@ mongo --host mongodb.gudishivadevops.online </app/schema/catalogue.js
 systemctl daemon-reload
 systemctl enable catalogue
 systemctl restart catalogue
+
